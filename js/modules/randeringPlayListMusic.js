@@ -3,8 +3,12 @@ import dataSongs from "./database/dataSongs.js";
 // console.log(dataSongs);
 
 let randerAudio = function randeringPlayList(){
+    
+    let audioSong = new Audio();
 
-    let audioSong = document.querySelector('.wrap__img__current__song .audio');
+    console.log(audioSong);
+
+    // let audioSong = document.querySelector('.wrap__img__current__song .audio');
 
     let playList = document.querySelector('.play__list .wrapper__items');
 

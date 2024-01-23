@@ -45,7 +45,9 @@ let totalTime = document.querySelector(
   ".wrapper__time__of__music .total__minuts__seconds"
 );
 
+
 randerAudio();
+
 let currentIndex = 0;
 
 findArrayItemsSongs();
@@ -53,6 +55,8 @@ findArrayItemsSongs();
 dropPause();
 
 qwe();
+
+
 
 function activeArrowLeftPath() {
   arrowLeftPath.forEach((elem) => {
@@ -267,12 +271,18 @@ function updateCurrentTime() {
   totalTime.textContent = durationMin + ":" + durationSec;
 }
 play.addEventListener("click", () => {
+
+  // randerAudio();
+
   dropPlay(); // Установка иконки пауза
   addGifToWrapperPlaying();   // Установка гифки на фон
   updateCurrentTime(); // Обновление текущего времени
   setInterval(updateCurrentTime, 10);
-  audioSong.play();
   audioSong.classList.add("play");
+  audioSong.src = dataSongs[0].song;
+  audioSong.id = dataSongs[0].id;
+  audioSong.play();
+
   // nextTrack();
 });
 

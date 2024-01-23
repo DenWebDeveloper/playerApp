@@ -9,7 +9,7 @@ let dataSongs = [
         titleSong:'Жди',
         nameArtist: 'Александр Казлитин ',
         imgSrc: "",
-        song: "../songs/0.mp3",
+        song: "../songs/Александр Казлитин - Жди.mp3",
     },
 
     { 

@@ -221,7 +221,7 @@ function dropPlay() {
 }
 
 function addGifToWrapperPlaying() {
-  imgCurrentSong.style.background = "url(../images/musical-notes.gif)";
+  imgCurrentSong.style.background = "url(../images/musical__notes.gif)";
   imgCurrentSong.style.backgroundPosition = "center center";
   imgCurrentSong.style.backgroundSize = "cover";
   imgCurrentSong.style.backgroundRepeat = "no-repeat";
@@ -268,7 +268,7 @@ function updateCurrentTime() {
 }
 play.addEventListener("click", () => {
   dropPlay(); // Установка иконки пауза
-  addGifToWrapperPlaying(); // Установка гифки на фон
+  addGifToWrapperPlaying();   // Установка гифки на фон
   updateCurrentTime(); // Обновление текущего времени
   setInterval(updateCurrentTime, 10);
   audioSong.play();

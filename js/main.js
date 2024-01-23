@@ -221,7 +221,7 @@ function dropPlay() {
 }
 
 function addGifToWrapperPlaying() {
-  imgCurrentSong.style.background = "url(../images/musical__notes.gif)";
+  imgCurrentSong.style.background = "url(./playerApp/images/musical__notes.gif)";
   imgCurrentSong.style.backgroundPosition = "center center";
   imgCurrentSong.style.backgroundSize = "cover";
   imgCurrentSong.style.backgroundRepeat = "no-repeat";

@@ -4,158 +4,220 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/flex.css">
+    <link rel="stylesheet" href="./css/grid.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/video.css">
+
+
    
-    <title>Базовая разметка</title>
+    <title>Player for Казлитин </title>
 </head>
-<body>
-
-    <div class="container">
+<body> 
 
 
-        <nav class="navbar">
-            <div class="menu">
-                <h3 class="logo">
-                    Company
-                    <span>name</span>
-                </h3>
+    <section class="section main__section">
 
-                <div class="burger">
-                    <div class="bar"></div>
+        <div class="blur"></div>
+
+        <header class="header">
+            <div class="wrapper__iems__header flex ai-center jc-sb">
+
+                <div class="item__header">
+    
+                    <svg class="burger__menu " width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H20" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M5 17H20" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M5 7H20" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    
+                </div>    
+            </div>
+        </header>
+
+        <div class="play__list">
+
+            <div class="items__header">
+
+                <div class="item__header item__header__music music active">
+                    Music
+                </div>
+
+                <div class="item__header item__header__video video ">
+                    
+                </div>
+
+                <svg class="svg__arrow" fill="#000000" height="800px" width="800px" 
+                version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" 
+                xmlns:xlink="http://www.w3.org/1999/xlink" 
+                 viewBox="0 0 26.676 26.676" xml:space="preserve">
+                <g>
+                <path d="M26.105,21.891c-0.229,0-0.439-0.131-0.529-0.346l0,0c-0.066-0.156-1.716-3.857-7.885-4.59
+                    c-1.285-0.156-2.824-0.236-4.693-0.25v4.613c0,0.213-0.115,0.406-0.304,0.508c-0.188,0.098-0.413,0.084-0.588-0.033L0.254,13.815
+                    C0.094,13.708,0,13.528,0,13.339c0-0.191,0.094-0.365,0.254-0.477l11.857-7.979c0.175-0.121,0.398-0.129,0.588-0.029
+                    c0.19,0.102,0.303,0.295,0.303,0.502v4.293c2.578,0.336,13.674,2.33,13.674,11.674c0,0.271-0.191,0.508-0.459,0.562
+                    C26.18,21.891,26.141,21.891,26.105,21.891z"/>
+
+                </svg>
+
+            </div>
+            <div class="container">
+
+                <div class="wrapper">
+
+                    <!-- <div class="wrapper__items item video"></div> -->
+
+                    <div class="wrapper__items item audio"></div>
+                
+                </div>
+               
+            </div>
+
+          
+        </div>
+
+        <div class="wrapper__playing">
+
+            <p class="counter__songs__playing">
+                <span class="counter__current">00</span>/<span class="counter__total">00</span>
+            </p>
+
+            <p class="subtitle__name__playing">Название песни</p>
+
+        </div>
+
+        <div class="wrap__img__current__song">
+
+            <audio class="audio" src="" controls ></audio>
+            <!-- <div class="blur__img__current__song"></div> -->
+        </div>
+
+    
+        <div class="progress__bar">
+            <div class="before"></div>
+            <div class="dot"></div>
+        </div>
+
+        <footer class="footer__navigation">
+
+            <div class="wrapper__time__of__music">
+
+                <span class="current__minuts__seconds">00:00 /</span> 
+                <span class="total__minuts__seconds">03:01</span>
+
+            </div>
+
+           
+            
+            <div class="wrapper__navigation flex ai-center jc-center">
+    
+                <div class="item__navigation item__navigation__random">
+                    <svg class="random__play diz" fill="" width="800px" height="800px" viewBox="-7.5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.92 17.56c-0.32-0.32-0.88-0.32-1.2 0s-0.32 0.88 0 1.2l0.76 0.76h-3.76c-0.6 0-1.080-0.32-1.6-0.96-0.28-0.36-0.8-0.44-1.2-0.16-0.36 0.28-0.44 0.8-0.16 1.2 0.84 1.12 1.8 1.64 2.92 1.64h3.76l-0.76 0.76c-0.32 0.32-0.32 0.88 0 1.2 0.16 0.16 0.4 0.24 0.6 0.24s0.44-0.080 0.6-0.24l2.2-2.2c0.32-0.32 0.32-0.88 0-1.2l-2.16-2.24zM10.72 12.48h3.76l-0.76 0.76c-0.32 0.32-0.32 0.88 0 1.2 0.16 0.16 0.4 0.24 0.6 0.24s0.44-0.080 0.6-0.24l2.2-2.2c0.32-0.32 0.32-0.88 0-1.2l-2.2-2.2c-0.32-0.32-0.88-0.32-1.2 0s-0.32 0.88 0 1.2l0.76 0.76h-3.76c-2.48 0-3.64 2.56-4.68 4.84-0.88 2-1.76 3.84-3.12 3.84h-2.080c-0.48 0-0.84 0.36-0.84 0.84s0.36 0.88 0.84 0.88h2.080c2.48 0 3.64-2.56 4.68-4.84 0.88-2 1.72-3.88 3.12-3.88zM0.84 12.48h2.080c0.6 0 1.080 0.28 1.56 0.92 0.16 0.2 0.4 0.32 0.68 0.32 0.2 0 0.36-0.040 0.52-0.16 0.36-0.28 0.44-0.8 0.16-1.2-0.84-1.040-1.8-1.6-2.92-1.6h-2.080c-0.48 0.040-0.84 0.4-0.84 0.88s0.36 0.84 0.84 0.84z"></path>
+                    </svg>
+
+                    <svg class="random__play active" fill="#fff" width="800px" height="800px" viewBox="-7.5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.92 17.56c-0.32-0.32-0.88-0.32-1.2 0s-0.32 0.88 0 1.2l0.76 0.76h-3.76c-0.6 0-1.080-0.32-1.6-0.96-0.28-0.36-0.8-0.44-1.2-0.16-0.36 0.28-0.44 0.8-0.16 1.2 0.84 1.12 1.8 1.64 2.92 1.64h3.76l-0.76 0.76c-0.32 0.32-0.32 0.88 0 1.2 0.16 0.16 0.4 0.24 0.6 0.24s0.44-0.080 0.6-0.24l2.2-2.2c0.32-0.32 0.32-0.88 0-1.2l-2.16-2.24zM10.72 12.48h3.76l-0.76 0.76c-0.32 0.32-0.32 0.88 0 1.2 0.16 0.16 0.4 0.24 0.6 0.24s0.44-0.080 0.6-0.24l2.2-2.2c0.32-0.32 0.32-0.88 0-1.2l-2.2-2.2c-0.32-0.32-0.88-0.32-1.2 0s-0.32 0.88 0 1.2l0.76 0.76h-3.76c-2.48 0-3.64 2.56-4.68 4.84-0.88 2-1.76 3.84-3.12 3.84h-2.080c-0.48 0-0.84 0.36-0.84 0.84s0.36 0.88 0.84 0.88h2.080c2.48 0 3.64-2.56 4.68-4.84 0.88-2 1.72-3.88 3.12-3.88zM0.84 12.48h2.080c0.6 0 1.080 0.28 1.56 0.92 0.16 0.2 0.4 0.32 0.68 0.32 0.2 0 0.36-0.040 0.52-0.16 0.36-0.28 0.44-0.8 0.16-1.2-0.84-1.040-1.8-1.6-2.92-1.6h-2.080c-0.48 0.040-0.84 0.4-0.84 0.88s0.36 0.84 0.84 0.84z"></path>
+                    </svg>
+                </div>
+    
+    
+                <div class="item__navigation arrow__left">  
+                    <svg class="si-glyph arrow__leftt" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_429_11234)">
+                        <path d="M21 17.1962L21 6.80387C21 5.26427 19.3333 4.30202 18 5.07182L15 6.80387L15 17.1962L18 18.9282C19.3333 19.698 21 18.7358 21 17.1962Z" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
+                        <path d="M3 13.7321C1.66667 12.9623 1.66667 11.0377 3 10.2679L12 5.0718C13.3333 4.302 15 5.26425 15 6.80385L15 17.1962C15 18.7358 13.3333 19.698 12 18.9282L3 13.7321Z" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_429_11234">
+                        <rect width="24" height="24" fill="white"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+    
+                <div class="item__navigation play-pause flex ai-center jc-center">
+    
+                    <svg class="item__play" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.6582 9.28638C18.098 10.1862 18.8178 10.6361 19.0647 11.2122C19.2803 11.7152 19.2803 12.2847 19.0647 12.7878C18.8178 13.3638 18.098 13.8137 16.6582 14.7136L9.896 18.94C8.29805 19.9387 7.49907 20.4381 6.83973 20.385C6.26501 20.3388 5.73818 20.0469 5.3944 19.584C5 19.053 5 18.1108 5 16.2264V7.77357C5 5.88919 5 4.94701 5.3944 4.41598C5.73818 3.9531 6.26501 3.66111 6.83973 3.6149C7.49907 3.5619 8.29805 4.06126 9.896 5.05998L16.6582 9.28638Z" stroke="#000000" stroke-width="2" stroke-linejoin="round"/>
+                    </svg>
+    
+                    <svg class="item__pause" width="800px" height="800px" viewBox="-1 0 8 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Dribbble-Light-Preview" transform="translate(-227.000000, -3765.000000)" fill="">
+                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                    <path d="M172,3605 C171.448,3605 171,3605.448 171,3606 L171,3612 C171,3612.552 171.448,3613 172,3613 C172.552,3613 173,3612.552 173,3612 L173,3606 C173,3605.448 172.552,3605 172,3605 M177,3606 L177,3612 C177,3612.552 176.552,3613 176,3613 C175.448,3613 175,3612.552 175,3612 L175,3606 C175,3605.448 175.448,3605 176,3605 C176.552,3605 177,3605.448 177,3606" id="pause-[#1006]">
+                    
+                                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+    
+                </div>
+    
+                <div class="item__navigation arrow__right">
+                    <svg class="si-glyph arrow__rightt" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_429_11073)">
+                        <path d="M3 6.80383V17.1961C3 18.7357 4.66667 19.698 6 18.9282L9 17.1961L9 6.80383L6 5.07177C4.66667 4.30197 3 5.26423 3 6.80383Z" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
+                        <path d="M21 10.2679C22.3333 11.0377 22.3333 12.9623 21 13.7321L12 18.9282C10.6667 19.698 9 18.7358 9 17.1962L9 6.80385C9 5.26425 10.6667 4.302 12 5.0718L21 10.2679Z" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_429_11073">
+                        <rect width="24" height="24" fill="white"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+    
+                <div class="wrapper__repeat__play item__navigation">
+    
+                    <div class=" repeatPlay repeat">
+                        <svg class="repeat__play" width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.46967 2.46967C8.76256 2.17678 9.23744 2.17678 9.53033 2.46967L11.5303 
+                            4.46967C11.7448 4.68417 11.809 5.00676 11.6929 5.28701C11.5768 5.56727 11.3033 5.75 11 5.75H9C5.54822 5.75 2.75 8.54822 2.75 
+                            12C2.75 15.4517 5.54846 18.25 9.00028 18.25H9.5C9.91421 18.25 10.25 18.5858 10.25 19C10.25 19.4142 9.91421 19.75 9.5 19.75H9.00028C4.72011 
+                            19.75 1.25 16.2802 1.25 12C1.25 7.71979 4.71979 4.25 9 4.25H9.18934L8.46967 3.53033C8.17678 3.23744 8.17678 2.76256 8.46967 2.46967ZM13.75 5C13.75 
+                            4.58579 14.0858 4.25 14.5 4.25H15C19.2802 4.25 22.75 7.71979 22.75 12C22.75 16.2802 19.2802 19.75 15 19.75H14.8107L15.5303 20.4697C15.8232 20.7626 
+                            15.8232 21.2374 15.5303 21.5303C15.2374 21.8232 14.7626 21.8232 14.4697 21.5303L12.4697 19.5303C12.2552 19.3158 12.191 18.9932 12.3071 18.713C12.4232 
+                            18.4327 12.6967 18.25 13 18.25H15C18.4518 18.25 21.25 15.4518 21.25 12C21.25 8.54822 18.4518 5.75 15 5.75H14.5C14.0858 5.75 13.75 5.41421 13.75 5Z" 
+                            fill=""/>
+                        </svg>
+                    </div>
+    
+                    <!-- <div class=" repeatPplayOne repeat">
+    
+                        <svg class="repeat__play-one" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.46967 2.46967C8.76256 2.17678 9.23744 2.17678 9.53033 2.46967L11.5303 
+                            4.46967C11.7448 4.68417 11.809 5.00676 11.6929 5.28701C11.5768 5.56727 11.3033 5.75 11 5.75H9C5.54822 5.75 2.75 8.54822 2.75 
+                            12C2.75 15.4517 5.54846 18.25 9.00028 18.25H9.5C9.91421 18.25 10.25 18.5858 10.25 19C10.25 19.4142 9.91421 19.75 9.5 19.75H9.00028C4.72011 
+                            19.75 1.25 16.2802 1.25 12C1.25 7.71979 4.71979 4.25 9 4.25H9.18934L8.46967 3.53033C8.17678 3.23744 8.17678 2.76256 8.46967 2.46967ZM13.75 5C13.75 
+                            4.58579 14.0858 4.25 14.5 4.25H15C19.2802 4.25 22.75 7.71979 22.75 12C22.75 16.2802 19.2802 19.75 15 19.75H14.8107L15.5303 20.4697C15.8232 20.7626 
+                            15.8232 21.2374 15.5303 21.5303C15.2374 21.8232 14.7626 21.8232 14.4697 21.5303L12.4697 19.5303C12.2552 19.3158 12.191 18.9932 12.3071 18.713C12.4232 
+                            18.4327 12.6967 18.25 13 18.25H15C18.4518 18.25 21.25 15.4518 21.25 12C21.25 8.54822 18.4518 5.75 15 5.75H14.5C14.0858 5.75 13.75 5.41421 13.75 5ZM12.287 
+                            9.30709C12.5673 9.42318 12.75 9.69665 12.75 10V14C12.75 14.4142 12.4142 14.75 12 14.75C11.5858 14.75 11.25 14.4142 11.25 14V11.8107L11.0303 12.0303C10.7374 
+                            12.3232 10.2626 12.3232 9.96967 12.0303C9.67678 11.7374 9.67678 11.2626 9.96967 10.9697L11.4697 9.46967C11.6842 9.25517 12.0068 9.191 12.287 9.30709Z" 
+                            fill=""/>
+                        </svg>
+    
+                    </div> -->
                 </div>
             </div>
-        </nav>
+        </footer>
+
+    </section>
 
 
+ 
 
-        <div class="screen" id="Home">
 
-            <div class="main">
-                <header class="header__one">
-                    <div class="header">
-                        <div class="header__item">
-                            <h2 class="title">Home Page</h2>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, illum?</p>
-                            <button class="btn">Read More</button>
-                        </div>
-                    </div>
-                </header>
-            </div>
-
-            <div class="shadow one"></div>
-            <div class="shadow two"></div>
-
-        </div>
-
-        <div class="screen" id="About">
-
-            <div class="main">
-                <header class="header__two">
-                    <div class="header">
-                        <div class="header__item">
-                            <h2 class="title">About Page</h2>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, illum?</p>
-                            <button class="btn">Read More</button>
-                        </div>
-                    </div>
-                </header>
-            </div>
-
-            <div class="shadow one"></div>
-            <div class="shadow two"></div>
-
-        </div>
-
-        <div class="screen" id="Services">
-
-            <div class="main">
-                <header class="header__three">
-                    <div class="header">
-                        <div class="header__item">
-                            <h2 class="title">Services Page</h2>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, illum?</p>
-                            <button class="btn">Read More</button>
-                        </div>
-                    </div>
-                </header>
-            </div>
-
-            <div class="shadow one"></div>
-            <div class="shadow two"></div>
-
-        </div>
-
-        <div class="screen" id="Portfolio">
-
-            <div class="main">
-                <header class="header__four">
-                    <div class="header">
-                        <div class="header__item">
-                            <h2 class="title">Portfolio Page</h2>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, illum?</p>
-                            <button class="btn">Read More</button>
-                        </div>
-                    </div>
-                </header>
-            </div>
-
-            <div class="shadow one"></div>
-            <div class="shadow two"></div>
-
-        </div>
-
-        <div class="screen" id="Testimonials">
-
-            <div class="main">
-                <header class="header__five">
-                    <div class="header">
-                        <div class="header__item">
-                            <h2 class="title">Testimonials Page</h2>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, illum?</p>
-                            <button class="btn">Read More</button>
-                        </div>
-                    </div>
-                </header>
-            </div>
-
-            <div class="shadow one"></div>
-            <div class="shadow two"></div>
-
-        </div>
-
-        <div class="screen" id="Contacts">
-
-            <div class="main">
-                <header class="header__six">
-                    <div class="header">
-                        <div class="header__item">
-                            <h2 class="title">Contacts Page</h2>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, illum?</p>
-                            <button class="btn">Read More</button>
-                        </div>
-                    </div>
-                </header>
-            </div>
-
-            <div class="shadow one"></div>
-            <div class="shadow two"></div>
-
-        </div>
-
-        <div class="links">
-            <ul>
-                <li><a class="link" data-link="Home" href="#" style="--i: .1s">Home</a></li>
-                <li><a class="link" data-link="About" href="#" style="--i: .15s">About</a></li>
-                <li><a class="link" data-link="Services" href="#" style="--i: .2s">Services</a></li>
-                <li><a class="link" data-link="Portfolio" href="#" style="--i: .25s">Portfolio</a></li>
-                <li><a class="link" data-link="Testimonials" href="#" style="--i: .3s">Testimonials</a></li>
-                <li><a class="link" data-link="Contacts" href="#" style="--i: .35s">Contacts</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- <video src="./video/Казлитин - Королева.mp4" controls width="300"></video> -->
-
-    <script src="js/main.js"></script>    
+    <script src="js/main.js" type="module"></script>
+   
 </body>
 </html>

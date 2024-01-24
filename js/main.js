@@ -1,7 +1,7 @@
 import dataSongs from "./modules/database/dataSongs.js";
 import randerAudio from "./modules/randeringPlayListMusic.js";
-import dataVideos from "./modules/database/dataVideos.js";
-import randerVideo from "./modules/randeringPlayListVideo.js";
+// import dataVideos from "./modules/database/dataVideos.js";
+// import randerVideo from "./modules/randeringPlayListVideo.js";
 
 const music = document.querySelector(".item__header__music");
 const video = document.querySelector(".item__header__video");

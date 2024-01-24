@@ -2,14 +2,13 @@
 
 let dataSongs = [
 
-
     {   
         id: 0,
         numTreck:"01",
         titleSong:'Жди',
         nameArtist: 'Александр Казлитин ',
         imgSrc: "",
-        song: "./playerApp/songs/0.mp3",
+        song: "../songs/0.mp3",
     },
 
     { 

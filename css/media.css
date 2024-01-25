@@ -311,8 +311,8 @@
     .footer__navigation {
     
         position: absolute;
-        bottom: 0;
-        bottom: 0px;
+        /* bottom: 0; */
+        bottom: 6%;
         left: 0;
 
         display: flex;
@@ -323,18 +323,21 @@
     
         width: 100%;
         height: max-content;
+
+
+        background-color: rgba(99, 99, 99, .5);
+
         border-top: 2px solid gray;
         z-index: 2;
     }
     
     .wrapper__navigation {
     
-        height: 100%;
+        /* height: 50%; */
         width: 100%;
+        
 
         margin: 0 auto;
-    
-        background-color: rgba(99, 99, 99, .5);
     
     }
 

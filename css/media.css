@@ -18,7 +18,7 @@
         align-items: center;
         justify-content: space-around;
     
-        bottom: 60px;
+        bottom: 8%;
         right: 0;
         width: 75%;
 
@@ -149,17 +149,16 @@
         align-items: center;
         justify-content: space-around;
     
-        bottom: 60px;
+        bottom: 15%;
         left: 0;
         width: 100%;
 
-        /* background-color: red; */
+        background-color: rgba(0, 0, 0, 0.5);
     
-        z-index: 2;
+        z-index: 3;
     
     }
-    
-    
+
     .counter__songs__playing {
         
         position: absolute;
@@ -192,7 +191,7 @@
         right: 5%;
 
         /* transform: translate(-50%, -50%); */
-        color: #fff;
+        color: #ffffff;
     
         font-size: 16px;
         font-family: 'Blue_Melody_Regular', sans-serif;
@@ -312,7 +311,7 @@
     
         position: absolute;
         /* bottom: 0; */
-        bottom: 6%;
+        bottom: 7%;
         left: 0;
 
         display: flex;
@@ -327,14 +326,18 @@
 
         background-color: rgba(99, 99, 99, .5);
 
-        border-top: 2px solid gray;
-        z-index: 2;
+        /* border-top: 2px solid gray; */
+        z-index: 3;
     }
     
     .wrapper__navigation {
     
         /* height: 50%; */
         width: 100%;
+
+        /* background-color: #1c1b1bdd; */
+
+        background-color: rgba(0, 0, 0, 0.5);
         
 
         margin: 0 auto;
@@ -481,7 +484,7 @@
 
         position: relative;
         position: absolute;
-        bottom: 60px;
+        bottom: 14.7%;
         left: 0;
         background-color: rgb(85, 85, 85);
         width: 100%;

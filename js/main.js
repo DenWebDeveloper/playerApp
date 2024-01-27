@@ -171,7 +171,7 @@ function findArrayItemsSongs() {
       currenTitleSong.innerText = item.childNodes[3].innerText;
       audioSong.id = item.id;
       dropPlay();
-      addGifToWrapperPlaying();
+      // addGifToWrapperPlaying();
       currentIndex = item.id;
       audioSong.src = dataSongs[currentIndex].song;
       audioSong.play();
@@ -275,7 +275,7 @@ play.addEventListener("click", () => {
   // randerAudio();
 
   dropPlay(); // Установка иконки пауза
-  addGifToWrapperPlaying();   // Установка гифки на фон
+  // addGifToWrapperPlaying();   // Установка гифки на фон
   updateCurrentTime(); // Обновление текущего времени
   setInterval(updateCurrentTime, 10);
   audioSong.classList.add("play");

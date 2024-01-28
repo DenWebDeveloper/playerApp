@@ -1,7 +1,7 @@
 import dataSongs from "./modules/database/dataSongs.js";
 import randerAudio from "./modules/randeringPlayListMusic.js";
-// import dataVideos from "./modules/database/dataVideos.js";
-// import randerVideo from "./modules/randeringPlayListVideo.js";
+import dataVideos from "./modules/database/dataVideos.js";
+import randerVideo from "./modules/randeringPlayListVideo.js";
 
 const music = document.querySelector(".item__header__music");
 const video = document.querySelector(".item__header__video");
@@ -46,7 +46,7 @@ let totalTime = document.querySelector(
 );
 
 
-randerAudio();
+// randerAudio();
 
 let currentIndex = 0;
 
@@ -275,18 +275,21 @@ play.addEventListener("click", () => {
 
   // randerAudio();
 
-  dropPlay(); // Установка иконки пауза
+  dropPlay();
   // addGifToWrapperPlaying();   // Установка гифки на фон
-  updateCurrentTime(); // Обновление текущего времени
+  // updateCurrentTime();
   setInterval(updateCurrentTime, 10);
-  audioSong.classList.add("play");
-  audioSong.src = dataSongs[0].song;
-  audioSong.id = dataSongs[0].id;
+  // audioSong.classList.add("play");
+  // audioSong.src = dataSongs[0].song;
+  // audioSong.id = dataSongs[0].id;
+
+  console.log("Клик");
   audioSong.play();
 
   // nextTrack();
 });
 
+console.log(play);
 
 function prevTrack() {
 

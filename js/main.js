@@ -172,7 +172,7 @@ function findArrayItemsSongs() {
       currenTitleSong.innerText = item.childNodes[3].innerText;
       audioSong.id = item.id;
       dropPlay();
-      // addGifToWrapperPlaying();
+      addGifToWrapperPlaying();
       currentIndex = item.id;
       audioSong.src = dataSongs[currentIndex].song;
       audioSong.play();
@@ -226,14 +226,14 @@ function dropPlay() {
 }
 
 function addGifToWrapperPlaying() {
-  imgCurrentSong.style.background = "url(../images/musical__notes.gif)";
+  imgCurrentSong.style.background = "url(./images/musical__notes.gif)";
   imgCurrentSong.style.backgroundPosition = "center center";
   imgCurrentSong.style.backgroundSize = "cover";
   imgCurrentSong.style.backgroundRepeat = "no-repeat";
 }
 
 function addJpgToWrapperPlaying() {
-  imgCurrentSong.style.background = "url(../images/musical__notes.jpg)";
+  imgCurrentSong.style.background = "url(./images/musical__notes.jpg)";
   imgCurrentSong.style.backgroundPosition = "center center";
   imgCurrentSong.style.backgroundSize = "cover";
   imgCurrentSong.style.backgroundRepeat = "no-repeat";
@@ -275,6 +275,8 @@ play.addEventListener("click", () => {
 
   dropPlay();
   // updateCurrentTime();
+
+  addGifToWrapperPlaying();
   setInterval(updateCurrentTime, 10);
   audioSong.classList.add("play");
   // audioSong.src = dataSongs[0].song;

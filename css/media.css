@@ -149,7 +149,7 @@
         align-items: center;
         justify-content: space-around;
     
-        bottom: 15%;
+        bottom: 16%;
         left: 0;
         width: 100%;
 
@@ -484,7 +484,7 @@
 
         position: relative;
         position: absolute;
-        bottom: 18%;
+        bottom: 16%;
         left: 0;
         background-color: rgb(85, 85, 85);
         width: 100%;

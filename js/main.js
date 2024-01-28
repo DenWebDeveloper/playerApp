@@ -46,7 +46,7 @@ let totalTime = document.querySelector(
 );
 
 
-// randerAudio();
+randerAudio();
 
 let currentIndex = 0;
 

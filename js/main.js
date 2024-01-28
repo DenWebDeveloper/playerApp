@@ -273,10 +273,7 @@ function updateCurrentTime() {
 }
 play.addEventListener("click", () => {
 
-  // randerAudio();
-
   dropPlay();
-  // addGifToWrapperPlaying();   // Установка гифки на фон
   // updateCurrentTime();
   setInterval(updateCurrentTime, 10);
   // audioSong.classList.add("play");

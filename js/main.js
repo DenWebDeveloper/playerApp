@@ -126,6 +126,7 @@ function findArrayItemsSongs() {
 
   arrayItemsSongs.forEach((item) => {
     item.addEventListener("click", (e) => {
+      
       activeArrowLeftPath();
       activeArrowRightPath();
       audioSong.classList.add("play");

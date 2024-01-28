@@ -9,7 +9,7 @@ let randerAudio = function randeringPlayList(){
 
     let audioSong = document.querySelector('.wrap__img__current__song .audio');
 
-    console.log(audioSong);
+    // console.log(audioSong);
 
 
     let playList = document.querySelector('.play__list .wrapper__items');

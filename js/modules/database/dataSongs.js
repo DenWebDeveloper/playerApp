@@ -75,7 +75,7 @@ let dataSongs = [
         titleSong:'Иди через лес',
         nameArtist: 'Александр Казлитин ',
         imgSrc: "",
-        song: "../songs/Александр Казлитин - Иди через лес.mp3",
+        song: "./songs/Александр Казлитин - Иди через лес.mp3",
     },
 
     {   
@@ -84,7 +84,7 @@ let dataSongs = [
         titleSong:'Интернет',
         nameArtist: 'Александр Казлитин ',
         imgSrc: "",
-        song: "../songs/Александр Казлитин - Интернет.mp3",
+        song: "./songs/Александр Казлитин - Интернет.mp3",
     },
 
     {   
@@ -93,7 +93,7 @@ let dataSongs = [
         titleSong:'Лететь',
         nameArtist: 'Александр Казлитин ',
         imgSrc: "",
-        song: "../songs/Александр Казлитин - Лететь.mp3",
+        song: "./songs/Александр Казлитин - Лететь.mp3",
     },
 
     {   
@@ -102,7 +102,7 @@ let dataSongs = [
         titleSong:'Лизавета',
         nameArtist: 'Александр Казлитин ',
         imgSrc: "",
-        song: "../songs/Александр Казлитин - Лизавета.mp3",
+        song: "./songs/Александр Казлитин - Лизавета.mp3",
     },
 
     {   

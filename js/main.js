@@ -276,7 +276,7 @@ play.addEventListener("click", () => {
   dropPlay();
   // updateCurrentTime();
   setInterval(updateCurrentTime, 10);
-  // audioSong.classList.add("play");
+  audioSong.classList.add("play");
   // audioSong.src = dataSongs[0].song;
   // audioSong.id = dataSongs[0].id;
 

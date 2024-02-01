@@ -588,6 +588,216 @@ let dataSongs = [
 
     },
     
+    //////////////////////////////////////////////////////////////////////////////////////
+
+    {   
+        id: 61,
+        numTreck:"62",
+        titleSong:' Молодая (Ефрем Амирамов)',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлинит - Молодая (Ефрем Амирамов).mp3",
+
+    },  {   
+        id: 62,
+        numTreck:"63",
+        titleSong:' На небе (Океан Ельзи)',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - На небе (Океан Ельзи).mp3",
+
+    },
+    {   
+        id: 63,
+        numTreck:"64",
+        titleSong:'90 суток',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - 90 суток.mp3",
+
+    },
+    {   
+        id: 64,
+        numTreck:"65",
+        titleSong:'В облака у водопада',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - В облака у водопада (Рондо Олег).mp3",
+
+    },
+    {   
+        id: 65,
+        numTreck:"66",
+        titleSong:'Дарим',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Дарим.mp3",
+
+    },
+    {   
+        id: 66,
+        numTreck:"67",
+        titleSong:'Девчонки полюбили не меня',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Девчонки полюбили не меня (Леприконсы).mp3",
+
+    },
+    {   
+        id: 67,
+        numTreck:"68",
+        titleSong:'Интернет (Аранировка)',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Интернет (Аранировка).mp3",
+
+    },
+    {   
+        id: 68,
+        numTreck:"69",
+        titleSong:'Дым',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Дым.mp3",
+
+    },
+    {   
+        id: 69,
+        numTreck:"70",
+        titleSong:'Жаль',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Жаль.mp3",
+
+    },
+    {   
+        id: 70,
+        numTreck:"71",
+        titleSong:'Зима меняет',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Зима меняет.mp3",
+
+    },
+    {   
+        id: 71,
+        numTreck:"72",
+        titleSong:'Москва (Монгол Шуудан)',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Москва (Монгол Шуудан).mp3",
+
+    },
+    {   
+        id: 72,
+        numTreck:"73",
+        titleSong:'Ненастная погода',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Ненастная погода (Владимира Захарова).mp3",
+
+    },
+    {   
+        id: 73,
+        numTreck:"74",
+        titleSong:'Патрон (Miyagi Andy Panda)',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Патрон (Miyagi Andy Panda).mp3",
+
+    },
+    {   
+        id: 74,
+        numTreck:"75",
+        titleSong:'Полиция нравов',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Полиция нравов.mp3",
+
+    },
+    {   
+        id: 75,
+        numTreck:"76",
+        titleSong:'Романс',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Романс.mp3",
+
+    },
+    {   
+        id: 76,
+        numTreck:"77",
+        titleSong:'Сестра (Буланова)',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Сестра (Буланова).mp3",
+
+    },
+    {   
+        id: 77,
+        numTreck:"78",
+        titleSong:'Страна чудес',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Страна чудес.mp3",
+
+    },
+    {   
+        id: 78,
+        numTreck:"79",
+        titleSong:'Там, там (Антиреспект)',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Там, там (Антиреспект).mp3",
+
+    },
+    {   
+        id: 79,
+        numTreck:"80",
+        titleSong:'Тянет',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Тянет.mp3",
+
+    },
+    {   
+        id: 80,
+        numTreck:"81",
+        titleSong:'Тяни (КиШ)',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Тяни (КиШ).mp3",
+
+    },
+    {   
+        id: 81,
+        numTreck:"82",
+        titleSong:'Червяк Валера',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Червяк Валера.mp3",
+
+    },
+   
+    {   
+        id: 82,
+        numTreck:"83",
+        titleSong:'Яблони (Ляпис Трубецкой)',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Яблони (Ляпис Трубецкой).mp3",
+
+    },
+
+    {   
+        id: 83,
+        numTreck:"84",
+        titleSong:'Я вернусь (Тальков)',
+        nameArtist: 'Александр Казлитин',
+        imgSrc: "",
+        song: "./songs/Александр Казлитин - Я вернусь (Тальков).mp3",
+
+    },
 ];
 
 export default dataSongs;

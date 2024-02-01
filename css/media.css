@@ -626,13 +626,13 @@
         align-items: center;
         justify-content: space-around;
 
-        padding-bottom: 10px;
+        /* padding-bottom: 10px; */
     
         width: 100%;
         height: max-content;
 
 
-        background-color: rgba(99, 99, 99, .5);
+        background-color: rgba(2, 2, 2, 0.7);
 
         /* border-top: 2px solid gray; */
         z-index: 3;

@@ -619,7 +619,7 @@ let dataSongs = [
     {   
         id: 64,
         numTreck:"65",
-        titleSong:'В облака у водопада',
+        titleSong:'В облаках у водопада',
         nameArtist: 'Александр Казлитин',
         imgSrc: "",
         song: "./songs/Александр Казлитин - В облака у водопада (Рондо Олег).mp3",
@@ -646,7 +646,7 @@ let dataSongs = [
     {   
         id: 67,
         numTreck:"68",
-        titleSong:'Интернет (Аранировка)',
+        titleSong:'Интернет (Аранжировка)',
         nameArtist: 'Александр Казлитин',
         imgSrc: "",
         song: "./songs/Александр Казлитин - Интернет (Аранировка).mp3",
